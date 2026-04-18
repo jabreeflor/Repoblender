@@ -1,0 +1,3 @@
+# Fixture server configuration.
+port: 8080
+host: localhost

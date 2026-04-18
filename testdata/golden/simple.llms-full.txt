@@ -1,0 +1,64 @@
+# Simple Fixture
+
+> A tiny fake project used to exercise repoblender. It has a README, some source, and a config file.
+
+## Root
+
+- [.gitignore](.gitignore): *.log
+- [README.md](README.md): A tiny fake project used to exercise repoblender. It has a README, some source, and a config file.
+- [config.yaml](config.yaml): Fixture server configuration.
+
+## src
+
+- [src/helper.py](src/helper.py): Helper module for the simple fixture.
+- [src/main.go](src/main.go): Package main is the entry point for the simple fixture.
+
+## Full File Contents
+
+### .gitignore
+
+```
+*.log
+build/
+```
+
+### README.md
+
+```markdown
+# Simple Fixture
+
+A tiny fake project used to exercise repoblender.
+It has a README, some source, and a config file.
+
+## Usage
+
+Nothing to run — this is only test data.
+```
+
+### config.yaml
+
+```yaml
+# Fixture server configuration.
+port: 8080
+host: localhost
+```
+
+### src/helper.py
+
+```python
+"""Helper module for the simple fixture."""
+
+
+def greet(name: str) -> str:
+    return f"hello {name}"
+```
+
+### src/main.go
+
+```go
+// Package main is the entry point for the simple fixture.
+package main
+
+func main() {}
+```
+
